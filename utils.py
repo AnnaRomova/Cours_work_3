@@ -38,11 +38,8 @@ def get_posts_by_user(user_name):
 def get_comments_by_post_id(post_id):
     """Return all comments by post id"""
     # TODO перенести путь в конфиг
-    posts = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\data.json")
-    pks = []
-    for post in posts:
-        pks.append(post["pk"])
-    if not post_id in pks:
+    post = get_post_by_pk(post_id)
+    if not post:
         raise ValueError("Такого поста нет")
     comments = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\comments.json")
     result = []
@@ -61,5 +58,9 @@ def search_for_posts(query: str):
     return result
 
 def get_post_by_pk(pk):
-    """"""
-    pass
+    """Return post by pk"""
+    data = get_posts_all()
+    for post in data:
+        if post["pk"] == pk:
+            return post
+    return None
