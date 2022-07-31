@@ -15,20 +15,50 @@ def read_function(path_):
         print("blabla")
 
 def get_posts_all():
-    """"""
-    pass
+    """Return the list og all posts"""
+    # TODO перенести путь в конфиг
+    result = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\data.json")
+    return result
 
 def get_posts_by_user(user_name):
-    """"""
-    pass
+    """Return posts by name"""
+    # TODO перенести путь в конфиг, не возвращает пустой список
+    posts = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\data.json")
+    result = []
+    for post in posts:
+        if post["poster_name"] == user_name:
+            result.append(post)
+    if result:
+        return result
+    else:
+        raise ValueError("Такого пользователя нет")
+        #return result
+
 
 def get_comments_by_post_id(post_id):
-    """"""
-    pass
+    """Return all comments by post id"""
+    # TODO перенести путь в конфиг
+    posts = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\data.json")
+    pks = []
+    for post in posts:
+        pks.append(post["pk"])
+    if not post_id in pks:
+        raise ValueError("Такого поста нет")
+    comments = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\comments.json")
+    result = []
+    for comment in comments:
+        if comment["post_id"] == post_id:
+            result.append(comment)
+    return result
 
-def search_for_posts(query):
-    """"""
-    pass
+def search_for_posts(query: str):
+    """The function finds posts by a word"""
+    data = get_posts_all()
+    result = []
+    for post in data:
+        if query.lower() in post["content"].lower():
+            result.append(post)
+    return result
 
 def get_post_by_pk(pk):
     """"""
