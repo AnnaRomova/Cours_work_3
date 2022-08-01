@@ -1,6 +1,7 @@
 import json
 from os import path
 
+
 def read_function(path_):
     """Common fucntion for reading files"""
     try:
@@ -12,9 +13,11 @@ def read_function(path_):
                 data = f.read()
         return data
     except FileNotFoundError:
-        print("Wrong file or file path")
+        raise FileNotFoundError("Wrong file or file path")
     except ValueError:
-        print("Decoding json has failed")
+        raise ValueError("Decoding json has failed")
+    except Exception as e:
+        raise e("Something went wrong")
 
 def get_posts_all():
     """Return the list og all posts"""
