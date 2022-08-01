@@ -11,19 +11,21 @@ def read_function(path_):
             else:
                 data = f.read()
         return data
-    except:
-        print("blabla")
+    except FileNotFoundError:
+        print("Wrong file or file path")
+    except ValueError:
+        print("Decoding json has failed")
 
 def get_posts_all():
     """Return the list og all posts"""
     # TODO перенести путь в конфиг
-    result = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\data.json")
+    result = read_function(r"/coursework2_source/data/data.json")
     return result
 
 def get_posts_by_user(user_name):
     """Return posts by name"""
     # TODO перенести путь в конфиг, не возвращает пустой список
-    posts = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\data.json")
+    posts = read_function(r"/coursework2_source/data/data.json")
     result = []
     for post in posts:
         if post["poster_name"] == user_name:
@@ -41,7 +43,7 @@ def get_comments_by_post_id(post_id):
     post = get_post_by_pk(post_id)
     if not post:
         raise ValueError("Такого поста нет")
-    comments = read_function(r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\comments.json")
+    comments = read_function(r"/coursework2_source/data/comments.json")
     result = []
     for comment in comments:
         if comment["post_id"] == post_id:
