@@ -1,6 +1,6 @@
 import pytest
 
-from utils import read_function, get_posts_all, get_posts_by_user, get_comments_by_post_id, search_for_posts, get_post_by_pk
+from coursework2_source.utils import read_function
 
 file_param = [
     (list, r"C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\data\data.json"),
