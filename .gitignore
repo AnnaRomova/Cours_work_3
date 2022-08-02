@@ -1,3 +1,6 @@
 tests/__pycache__/
 utils/__pycache__/
 test.json
+lenta/__pycache__/
+lenta/dao/__pycache__/
+

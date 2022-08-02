@@ -1,0 +1,183 @@
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [02/Aug/2022 01:32:17] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-02 01:34:00,556 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:34:09,865 [INFO] 127.0.0.1 - - [02/Aug/2022 01:34:09] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-02 01:35:49,272 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:35:52,741 [ERROR] Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\anna1\skypro_lessons\Cours_work_3\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\anna1\skypro_lessons\Cours_work_3\venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\anna1\skypro_lessons\Cours_work_3\venv\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\anna1\skypro_lessons\Cours_work_3\venv\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\anna1\skypro_lessons\Cours_work_3\coursework2_source\run.py", line 39, in get_post_by_postId_json
+    new_logger.info()
+TypeError: Logger.info() missing 1 required positional argument: 'msg'
+2022-08-02 01:35:52,748 [INFO] 127.0.0.1 - - [02/Aug/2022 01:35:52] "[35m[1mGET /api/posts/1 HTTP/1.1[0m" 500 -
+2022-08-02 01:36:32,340 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:36:37,151 [INFO] 127.0.0.1 - - [02/Aug/2022 01:36:37] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-02 01:38:11,134 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:38:15,401 [INFO] 127.0.0.1 - - [02/Aug/2022 01:38:15] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-08-02 01:48:45,185 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:48:45,187 [INFO]  * Restarting with stat
+2022-08-02 01:48:45,533 [WARNING]  * Debugger is active!
+2022-08-02 01:48:45,543 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:48:52,701 [INFO]  * Detected change in 'C:\\Users\\anna1\\skypro_lessons\\Cours_work_3\\coursework2_source\\run.py', reloading
+2022-08-02 01:48:52,754 [INFO]  * Restarting with stat
+2022-08-02 01:48:53,104 [WARNING]  * Debugger is active!
+2022-08-02 01:48:53,107 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:49:11,540 [INFO]  * Detected change in 'C:\\Users\\anna1\\skypro_lessons\\Cours_work_3\\coursework2_source\\run.py', reloading
+2022-08-02 01:49:11,576 [INFO]  * Restarting with stat
+2022-08-02 01:49:11,960 [WARNING]  * Debugger is active!
+2022-08-02 01:49:11,963 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:49:22,371 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:49:22,373 [INFO]  * Restarting with stat
+2022-08-02 01:49:22,722 [WARNING]  * Debugger is active!
+2022-08-02 01:49:22,722 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:49:52,494 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:49:52,496 [INFO]  * Restarting with stat
+2022-08-02 01:49:52,862 [WARNING]  * Debugger is active!
+2022-08-02 01:49:52,865 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:51:39,810 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:51:39,812 [INFO]  * Restarting with stat
+2022-08-02 01:51:40,148 [WARNING]  * Debugger is active!
+2022-08-02 01:51:40,151 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:55:19,451 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:55:19,453 [INFO]  * Restarting with stat
+2022-08-02 01:55:19,794 [WARNING]  * Debugger is active!
+2022-08-02 01:55:19,794 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:55:35,943 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:55:35,946 [INFO]  * Restarting with stat
+2022-08-02 01:55:36,315 [WARNING]  * Debugger is active!
+2022-08-02 01:55:36,317 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:56:42,766 [INFO]  * Detected change in 'C:\\Users\\anna1\\skypro_lessons\\Cours_work_3\\coursework2_source\\run.py', reloading
+2022-08-02 01:56:42,804 [INFO]  * Restarting with stat
+2022-08-02 01:56:43,196 [WARNING]  * Debugger is active!
+2022-08-02 01:56:43,198 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:57:04,791 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:57:12,401 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:57:12,402 [INFO]  * Restarting with stat
+2022-08-02 01:57:12,772 [WARNING]  * Debugger is active!
+2022-08-02 01:57:12,774 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:57:42,173 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:57:42,175 [INFO]  * Restarting with stat
+2022-08-02 01:57:42,520 [WARNING]  * Debugger is active!
+2022-08-02 01:57:42,523 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:57:55,992 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:57:55,994 [INFO]  * Restarting with stat
+2022-08-02 01:57:56,363 [WARNING]  * Debugger is active!
+2022-08-02 01:57:56,363 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:58:07,142 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:58:07,144 [INFO]  * Restarting with stat
+2022-08-02 01:58:07,576 [WARNING]  * Debugger is active!
+2022-08-02 01:58:07,579 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:59:11,909 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:59:11,910 [INFO]  * Restarting with stat
+2022-08-02 01:59:12,289 [WARNING]  * Debugger is active!
+2022-08-02 01:59:12,292 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:59:30,074 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 01:59:30,076 [INFO]  * Restarting with stat
+2022-08-02 01:59:30,502 [WARNING]  * Debugger is active!
+2022-08-02 01:59:30,506 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 01:59:37,239 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:37] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+2022-08-02 01:59:37,828 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:37] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+2022-08-02 01:59:40,862 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:40] "GET / HTTP/1.1" 200 -
+2022-08-02 01:59:40,885 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:40] "GET /img/bookmark.png HTTP/1.1" 200 -
+2022-08-02 01:59:40,885 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 01:59:40,887 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-02 01:59:40,887 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-02 01:59:40,901 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:40] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+2022-08-02 01:59:44,927 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:44] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+2022-08-02 01:59:44,969 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:44] "GET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-08-02 01:59:44,972 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:44] "GET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-08-02 01:59:44,987 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:44] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-08-02 01:59:45,029 [INFO] 127.0.0.1 - - [02/Aug/2022 01:59:45] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:03,379 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 02:00:03,381 [INFO]  * Restarting with stat
+2022-08-02 02:00:03,730 [WARNING]  * Debugger is active!
+2022-08-02 02:00:03,733 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 02:00:07,291 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:07] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+2022-08-02 02:00:07,346 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:07] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-08-02 02:00:07,352 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:07] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-02 02:00:07,367 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:07] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:07,407 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:07] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:10,325 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:00:10,335 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:10] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+2022-08-02 02:00:12,099 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:12] "GET / HTTP/1.1" 200 -
+2022-08-02 02:00:12,114 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:00:12,115 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:12,118 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:12] "GET /img/bookmark.png HTTP/1.1" 200 -
+2022-08-02 02:00:12,119 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:12,133 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:12] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+2022-08-02 02:00:13,880 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:13] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+2022-08-02 02:00:13,910 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:13] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-08-02 02:00:13,910 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:13] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-02 02:00:13,927 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:13] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:28,970 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 02:00:28,972 [INFO]  * Restarting with stat
+2022-08-02 02:00:29,340 [WARNING]  * Debugger is active!
+2022-08-02 02:00:29,342 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 02:00:33,211 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:33] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+2022-08-02 02:00:33,259 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:33] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-02 02:00:33,264 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:33] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-08-02 02:00:33,275 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:33] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:33,315 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:33] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:47,939 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:00:47,946 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:47] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+2022-08-02 02:00:49,595 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:49] "GET / HTTP/1.1" 200 -
+2022-08-02 02:00:49,618 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:00:49,619 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:49,622 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:49] "GET /img/bookmark.png HTTP/1.1" 200 -
+2022-08-02 02:00:49,622 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-02 02:00:49,635 [INFO] 127.0.0.1 - - [02/Aug/2022 02:00:49] "GET /static/css/styles.min.css.map HTTP/1.1" 200 -
+2022-08-02 02:00:55,229 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 02:00:55,231 [INFO]  * Restarting with stat
+2022-08-02 02:00:55,585 [WARNING]  * Debugger is active!
+2022-08-02 02:00:55,585 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 02:01:03,934 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:03] "GET / HTTP/1.1" 200 -
+2022-08-02 02:01:03,970 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:03] "GET /img/bookmark.png HTTP/1.1" 200 -
+2022-08-02 02:01:04,014 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:01:04,014 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-02 02:01:04,018 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-02 02:01:06,097 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:06] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+2022-08-02 02:01:06,119 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:06] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-08-02 02:01:06,121 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:06] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-02 02:01:06,129 [INFO] 127.0.0.1 - - [02/Aug/2022 02:01:06] "[36mGET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-02 02:02:18,600 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 02:02:18,601 [INFO]  * Restarting with stat
+2022-08-02 02:02:18,963 [WARNING]  * Debugger is active!
+2022-08-02 02:02:18,966 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 02:02:26,772 [INFO] 127.0.0.1 - - [02/Aug/2022 02:02:26] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-02 02:02:26,791 [INFO] 127.0.0.1 - - [02/Aug/2022 02:02:26] "GET /posts/img/bookmark.png HTTP/1.1" 200 -
+2022-08-02 02:02:26,793 [INFO] 127.0.0.1 - - [02/Aug/2022 02:02:26] "GET /posts/img/post1.jpg HTTP/1.1" 200 -
+2022-08-02 02:02:26,795 [INFO] 127.0.0.1 - - [02/Aug/2022 02:02:26] "GET /posts/img/eye.png HTTP/1.1" 200 -
+2022-08-02 02:02:26,816 [INFO] 127.0.0.1 - - [02/Aug/2022 02:02:26] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:03:50,619 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-02 02:03:50,621 [INFO]  * Restarting with stat
+2022-08-02 02:03:50,973 [WARNING]  * Debugger is active!
+2022-08-02 02:03:50,974 [INFO]  * Debugger PIN: 133-179-514
+2022-08-02 02:04:05,687 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:05] "GET / HTTP/1.1" 200 -
+2022-08-02 02:04:05,704 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:05] "GET /img/bookmark.png HTTP/1.1" 200 -
+2022-08-02 02:04:05,751 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:04:05,756 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-02 02:04:05,757 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-02 02:04:07,159 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:07] "GET /posts/1 HTTP/1.1" 200 -
+2022-08-02 02:04:07,182 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:07] "GET /posts/img/bookmark.png HTTP/1.1" 200 -
+2022-08-02 02:04:07,183 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:07] "GET /posts/img/post1.jpg HTTP/1.1" 200 -
+2022-08-02 02:04:07,184 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:04:07,186 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:07] "GET /posts/img/eye.png HTTP/1.1" 200 -
+2022-08-02 02:04:10,253 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:10] "GET /users/leo HTTP/1.1" 200 -
+2022-08-02 02:04:10,274 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:04:10,276 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-08-02 02:04:10,277 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-02 02:04:12,135 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:12] "GET / HTTP/1.1" 200 -
+2022-08-02 02:04:12,159 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-08-02 02:04:12,161 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-08-02 02:04:12,163 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:12] "GET /img/bookmark.png HTTP/1.1" 200 -
+2022-08-02 02:04:12,164 [INFO] 127.0.0.1 - - [02/Aug/2022 02:04:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
